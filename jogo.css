@@ -19,15 +19,18 @@ h3{
     display: flex;
     justify-content: space-between;
     width: 35%;
+
 }
 .figura    {
     width: 100px;
     height: 150px;
     background-color: white;
     border-radius: 20px;
+    box-shadow: 5px 3px 3px black;
 }
+
 .perdeu {
-    font-size: 50px;
+    font-size: 70px;
     background-image: url("Imagens/302028.jfif");
     color: white;
     text-align: center;
@@ -35,17 +38,63 @@ h3{
     margin-top: 200px;
     -webkit-text-stroke: 1px black;
 }
-
-.perdeu a{
+.bot  {
+    font-size: 31px;
     text-decoration: none;
     border-style: solid;
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 7px;
+    color: white;
+    box-shadow: 7px 5px 5px black;
+}
+.textos {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 40px;
+    text-align: center;
+    
+}
+.textos p   {
+    font-size: 28px;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 5px 3px 3px black;
+}
+.violeta1   {    
+    background-image: url("Imagens/violeta.jpg");    
 }
 
-.violeta1   {
-    background-image: url("Imagens/filme-os-incriveis-dois.png");
-    background-size: 100% 550%;
+.botao  {
+    font-size: 31px;
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 7px;
+    margin-left: 45%;
+    box-shadow: 5px 5px 5px black;
+  
+}
+.venceu {
+    font-size: 50px;
+    background-image: url("Imagens/images.jfif");
+    color: white;
     text-align: center;
+    background-size: cover;
+    margin-top: 100px;
+    -webkit-text-stroke: 1px black;
+}
+.flecha {
+    background-image: url("Imagens/flecha.jpg");
+    background-size: cover;
+}
+.zeze1  {
+    background-image: url("Imagens/os-incriveis-2_wFxyUfk.jpg");
+    background-size: cover;
+}
+a:link  {
+    color:white;
 }
